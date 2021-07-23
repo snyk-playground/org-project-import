@@ -1,4 +1,6 @@
 ---
+# Required: this file will likely change in the future, so we're versioning it from the beginning
+schema: 1
 # Optional: this will change which org the projects are imported to
 # this in essence moves projects from this repo to a different org
 orgId: da450e98-1581-4cd1-a4fc-06a3b76f5004
