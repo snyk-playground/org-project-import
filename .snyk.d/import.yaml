@@ -1,6 +1,15 @@
 ---
-orgId: 4860d7a6-ca71-438b-8e2e-e8764a7cb713
-integrationId: b87e1473-37ab-4f09-a4e3-a0139a50e81e
+# Required: this file will likely change in the future, so we're versioning it from the beginning
+schema: 1
+# Optional: this will change which org the projects are imported to
+# this in essence moves projects from this repo to a different org
+orgId: da450e98-1581-4cd1-a4fc-06a3b76f5004
+integrationId: 20859d9c-fc25-4c26-9925-2e9356aad608
+# Optional: any tags present here will be applied to *all* projects created by this import action
 tags:
-  key1: value1
-  key2: value2 
+  application: example
+  team: cse
+# Optional: folder/filenames to exclude (not paths)
+exclusionGlobs: "fixtures, tests, __tests__, node_modules"
+# Optional: override the default branch for the import
+branch: development
