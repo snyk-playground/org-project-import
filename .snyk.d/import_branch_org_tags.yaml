@@ -1,0 +1,9 @@
+---
+# Set the org, use a custom branch, exclude src and lib directories along with the base excludes, use custom tags
+schema: 1
+orgName: cse-ownership
+tags:
+  application: example
+  team: cse
+exclusionGlobs: "fixtures, tests, __tests__, node_modules, src, lib"
+branch: development
