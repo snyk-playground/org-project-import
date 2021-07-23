@@ -1,11 +1,18 @@
 ---
 # Required: this file will likely change in the future, so we're versioning it from the beginning
 schema: 1
-# Optional: this will change which org the projects are imported to
-# this in essence moves projects from this repo to a different org
-orgId: da450e98-1581-4cd1-a4fc-06a3b76f5004
-integrationId: 20859d9c-fc25-4c26-9925-2e9356aad608
+# Optional: the API using the UUID for org and integration, but we want to reference them by name
+# when import.yaml is parsed it will perform the lookup against the approved org names and integration types
+# that exist in the config repo. This ensures that a repo can't be moved to a org outside of the control of 
+# the team that deploys snyk and that if an intergration is redone (and uuid changes) we don't need to update
+# every repository
+orgName: cse-ownership
+# Name of the integration to use - will default to same named integration used in config repo
+# this allows for a future option of pulling in projects in repos not in github but managing that list in github
+# github, github-enterprise, bitbucket, azure-repos
+integrationName: github-enterprise
 # Optional: any tags present here will be applied to *all* projects created by this import action
+# we don't support attributes at this time
 tags:
   application: example
   team: cse

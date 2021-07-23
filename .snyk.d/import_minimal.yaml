@@ -1,0 +1,5 @@
+---
+# this is a minimal example of the import.yaml - just move this repo to a different org using the
+# same integration type that is used by everyone (github enterprise in this case)
+schema: 1
+orgName: cse-ownership

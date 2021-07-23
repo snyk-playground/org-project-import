@@ -1,0 +1,6 @@
+---
+# Just add tags to all projects from this repository without moving it
+schema: 1
+tags:
+  application: example
+  team: cse
