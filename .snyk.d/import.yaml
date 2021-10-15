@@ -18,5 +18,7 @@ tags:
   team: cse
 # Optional: folder/filenames to exclude (not paths)
 exclusionGlobs: "fixtures, tests, __tests__, node_modules"
-# Optional: override the default branch for the import
-branch: development
+# Optional: provide one or more branches for import
+branches: 
+  - development
+  - main
