@@ -20,5 +20,7 @@ tags:
 exclusionGlobs: "fixtures, tests, __tests__, node_modules"
 # Optional: provide one or more branches for import
 branches: 
+  - FADFM-35273
+  - dev-release
   - development
   - main
