@@ -13,11 +13,11 @@ orgName: cse-ownership
 integrationName: github-enterprise
 # Optional: any tags present here will be applied to *all* projects created by this import action
 # we don't support attributes at this time
-tags:
-  application: example
-  team: cse
+# tags:
+#   application: example
+#   team: cse
 # Optional: folder/filenames to exclude (not paths)
-exclusionGlobs: "fixtures, tests, __tests__, node_modules"
+# exclusionGlobs: "fixtures, tests, __tests__, node_modules"
 # Optional: provide one or more branches for import
 branches: 
   - FADFM-35273
