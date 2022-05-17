@@ -1,0 +1,7 @@
+---
+schema: 1
+orgName: enterprise-api-delivery
+integrationName: github-enterprise
+branches:
+  - dev-release
+  - FADFM-35270
