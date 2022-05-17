@@ -1,6 +1,6 @@
 ---
 schema: 1
-orgName: enterprise-api-delivery
+orgName: cse-ownership
 integrationName: github-enterprise
 branches:
   - dev-release
