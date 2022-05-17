@@ -1,4 +1,3 @@
----
 # Required: this file will likely change in the future, so we're versioning it from the beginning
 schema: 1
 # Optional: the API using the UUID for org and integration, but we want to reference them by name
